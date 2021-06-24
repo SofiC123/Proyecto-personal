@@ -17,3 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function(){
   $('.slider').slider();
 });
+
+//inicializar el parallax de poemas
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  var instances = M.Parallax.init(elems, options);
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
