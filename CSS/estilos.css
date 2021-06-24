@@ -8,6 +8,14 @@
   font-size:20px;
 }
 
+.fuente3{
+  color:#5e5a5a;
+  font-family: 'Lato', sans-serif;
+  font-size:20px;
+  white-space: pre;
+  line-height : 30px;
+}
+
 
 .imgright{
   text-align:right;
@@ -33,16 +41,6 @@
   margin-left: 2vh;
 }
 
-.canasta{
-  background-color:#6886C5;
-  border-radius: 32px;
-  border: none;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size:15px;
-  height: 40px;
-  width: 100px;
-}
 
 .sticky{
   position: -webkit-sticky;
@@ -58,7 +56,7 @@
 
 
 h1{
-  color: #6886C5;
+  color: #37474f;
   font-family: 'Pacifico', cursive;
 }
 
@@ -137,3 +135,19 @@ label{
   color: #6886C5;
   font-family: 'Pacifico', cursive;
 }
+
+.imgparallax{
+  width: 400px;
+  height: 300 px;
+}
+
+.img2{
+  border-radius:50px;
+  width: 400px;
+  height: 300 px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  object-fit: cover;
+}
+
+
+
